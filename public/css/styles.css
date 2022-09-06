@@ -1,0 +1,97 @@
+  /* Hacia abajo es el CSS del header */
+
+header {
+
+    background-color: #EAC926;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    border: none;
+
+
+}
+
+#search {
+    padding-left: 20px;
+}
+
+
+.no-bullets {
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: black
+}
+
+.icono {
+    display: inline-block;
+    text-align: right;
+
+}
+
+.row {
+    display: grid;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    justify-content: center;
+    gap: 0px;
+}
+
+
+.item1 {
+    grid-column: 1 / span 2;
+}
+
+.basket {
+    color: white;
+    text-align: center;
+    background-color: #1259c3;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 650px;
+    margin-right: 650px;
+    border-radius: 5px;
+
+
+
+}
+
+/* Hacia abajo es el CSS del main */
+
+main {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.titulares {
+    font-size: 24px;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos {
+    font-size: 16px;
+}
+
+.descripciones {
+    font-size: 16px;
+}
+
+/* Hacia abajo es el CSS del footer */
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.foot {
+    color: #1259c3;
+}
